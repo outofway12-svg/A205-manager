@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>A205 Manager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <aside>
+        <h2>A205 Manager</h2>
+        <a href="/">Inicio</a>
+        <a href="#">Ventas</a>
+        <a href="#">Productos</a>
+        <a href="#">Compras</a>
+        <a href="#">Proveedores</a>
+        <a href="#">Tesorería</a>
+        <a href="#">Stock</a>
+    </aside>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

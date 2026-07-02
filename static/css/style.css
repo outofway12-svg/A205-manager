@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background: #0f172a;
+    color: #f9fafb;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+aside {
+    width: 240px;
+    min-height: 100vh;
+    background: #111827;
+    padding: 24px;
+}
+
+aside a {
+    display: block;
+    color: #9ca3af;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+main {
+    padding: 32px;
+    width: 100%;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.cards div {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 14px;
+}
